@@ -11,6 +11,7 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+     <!-- Modern normalize -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
@@ -18,6 +19,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <!-- Custom styles -->
     <link rel="stylesheet" href="./css/style.css" />
   </head>
 
@@ -128,13 +130,25 @@
           <h2 class="doing-title"> What are we doing</h2>
           <ul class="doing-title-list list">
             <li class="doing-item">
-              <img src="./images/Rectangle71.jpg" alt="laptop" width="360" class="doing-img" />
+              <img 
+              src="./images/doing/img-1.jpg" 
+              alt="laptop" 
+              width="360" 
+              class="doing-img" />
             </li>
             <li class="doing-item">
-              <img src="./images/img2.jpg" alt="phone" width="360" class="doing-img" />
+              <img 
+              src="./images/doing/img-2.jpg" 
+              alt="phone" 
+              width="360" 
+              class="doing-img" />
             </li>
             <li class="doing-item">
-              <img src="./images/img3.jpg" alt="phone and laptop" width="360" class="doing-img" />
+              <img 
+              src="./images/doing/img-3.jpg" 
+              alt="phone and laptop" 
+              width="360" 
+              class="doing-img" />
             </li>
           </ul>
         </div>
@@ -146,7 +160,7 @@
           <h2 class="team-title">Our Team</h2>
           <ul class="team-list list">
             <li class="team-item">
-              <img src="./images/teamcard-1.jpg" alt="Mark" width="264" class="team-img" />
+              <img src="./images/Teams/img-1.jpg" alt="Mark" width="264" class="team-img" />
               <div class="team-name">
                 <h3 class="team-subtitle">Mark Guerrero</h3>
                 <p class="team-text">Product Designer</p>
@@ -184,7 +198,7 @@
             </li>
 
             <li class="team-item">
-              <img src="./images/teamcard-2.jpg" class="team-img" alt="Tom" width="264" />
+              <img src="./images/Teams/img-2.jpg" class="team-img" alt="Tom" width="264" />
               <div class="team-name">
                 <h3 class="team-subtitle">Tom Ford</h3>
                 <p class="team-text">Frontend Developer</p>
@@ -222,7 +236,7 @@
             </li>
 
             <li class="team-item">
-              <img src="./images/teamcard-3.jpg" class="team-img" alt="Camila" width="264" />
+              <img src="./images/Teams/img-3.jpg" class="team-img" alt="Camila" width="264" />
               <div class="team-name">
                 <h3 class="team-subtitle">Camila Garcia</h3>
                 <p class="team-text">Marketing</p>
@@ -260,7 +274,7 @@
             </li>
 
             <li class="team-item">
-              <img src="./images/teamcard-4.jpg" class="team-img" alt="Daniel" width="264" />
+              <img src="./images/Teams/img-4.jpg" class="team-img" alt="Daniel" width="264" />
               <div class="team-name">
                 <h3 class="team-subtitle">Daniel Wilson</h3>
                 <p class="team-text">UI Designer</p>
@@ -563,10 +577,21 @@
             <button class="modal-button" type="submit">Send</button>
             
         </form>
-
         </div>
     </div>
 
-    <script src="./js/modal.js"></script>
+    <!-- Libs -->
+     <script src="./js/inputmask.min.js"></script>
+     <script
+       defer
+       src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+       integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+       crossorigin="anonymous"
+     ></script>
+     <!-- Custom js files -->
+     <script src="./js/form.js"></script>
+     <script src="./js/modal.js"></script>
+     <!-- Mobile menu js -->
+     <script defer src="./js/mobile-menu.js"></script>
   </body>
 </html>
