@@ -267,7 +267,7 @@ img , svg {
 /*Hero*/
 .hero {
     margin: 0 auto;
-    max-width: 428px;
+    max-width: 1140px;
     padding-top: 112px;
     padding-bottom: 112px;
     text-align: center;
@@ -288,7 +288,7 @@ img , svg {
       url(../images/hero/people-office-phone@2x.jpg);
   }
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 428px) {
   .hero {
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
@@ -297,7 +297,7 @@ img , svg {
       url(../images/hero/people-office-tablet.jpg);
   }
 }
-@media only screen and (min-width: 768px) and (min-resolution: 192dpi) {
+@media only screen and (min-width: 428px) and (min-resolution: 192dpi) {
   .hero {
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
@@ -306,7 +306,7 @@ img , svg {
       url(../images/hero/people-office-tablet@2x.jpg);
   }
 }
-@media only screen and (min-width: 1158px) {
+@media only screen and (min-width: 768px) {
   .hero {
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
@@ -315,7 +315,7 @@ img , svg {
       url(../images/hero/people-office-desktop.jpg);
   }
 }
-@media only screen and (min-width: 1158px) and (min-resolution: 192dpi) {
+@media only screen and (min-width: 768px) and (min-resolution: 192dpi) {
   .hero {
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
@@ -326,7 +326,7 @@ img , svg {
 }
 @media only screen and (min-width: 768px) {
   .hero {
-    max-width: 768px;
+  
   }
 }
 @media only screen and (min-width: 1158px) {
@@ -952,6 +952,14 @@ img , svg {
     align-items: center;
     flex-direction: column;
     margin-bottom: 72px;
+  }
+  @media only screen and (min-width: 1158px) {
+    .footer .info-block,
+    .wrapper-footer {
+     
+      margin-bottom: 0px;
+    }
+    
   }
   @media only screen and (min-width: 768px) {
     .footer .info-block,
