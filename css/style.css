@@ -266,6 +266,7 @@ img , svg {
 
 /*Hero*/
 .hero {
+    margin: 0 auto;
     max-width: 428px;
     padding-top: 112px;
     padding-bottom: 112px;
