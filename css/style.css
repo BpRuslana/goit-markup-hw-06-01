@@ -389,7 +389,8 @@ img , svg {
 /*Desktop screen*/
 @media only screen and (min-width: 1158px){
     .advantages{
-        padding: 120px 0;
+        padding-top: 120px;
+        padding-bottom: 0;
     }
 }
 .advantages-list {
@@ -758,6 +759,7 @@ img , svg {
 }
 
 /*Portfolio Section*/
+
 /*Filtr section*/
 .filtr {
     padding-top: 96px; 
@@ -1034,11 +1036,13 @@ img , svg {
   @media only screen and (max-width: 427.98px) {
     .subscribe-form-input {
       width: 264px;
+      
     }
   }
   @media only screen and (min-width: 768px) {
     .subscribe-form-input {
       width: 264px;
+      margin-bottom: 0;
     }
   }
   .subscribe-form-input:focus {
